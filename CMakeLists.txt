@@ -8,4 +8,6 @@ add_executable(Algorithm_Hub MergeSort.cpp
         "Binary Tree.cpp"
         QuickSort.cpp
         "Pixel Algorithm.cpp"
-        "Hash Tables.cpp")
+        "Hash Tables.cpp"
+        "Graph Algorithms.cpp"
+        "Dynamic Programming.cpp")

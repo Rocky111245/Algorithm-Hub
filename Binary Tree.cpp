@@ -48,6 +48,41 @@
 //}
 //
 //
+//// Function to insert data iteratively into the binary tree
+//Binary_Tree* Binary_Tree_Iterative(Binary_Tree* pointer_to_tree, int data) {
+//    // If the tree is empty, create a new root node
+//    if (pointer_to_tree == nullptr) {
+//        return new Binary_Tree(data);
+//    }
+//
+//    // Start at the root of the tree
+//    Binary_Tree* root_pointer = pointer_to_tree;
+//    Binary_Tree* parent_pointer = nullptr;
+//
+//    // Traverse the tree to find the correct insertion point
+//    while (pointer_to_tree != nullptr) {
+//        parent_pointer = pointer_to_tree; // Keep track of the parent node
+//
+//        if (data > pointer_to_tree->data) {
+//            pointer_to_tree = pointer_to_tree->right_node;
+//        } else if (data < pointer_to_tree->data) {
+//            pointer_to_tree = pointer_to_tree->left_node;
+//        } else {
+//            // Data is already in the tree; do nothing (assuming no duplicates)
+//            return root_pointer;
+//        }
+//    }
+//
+//    // Insert the new node at the correct position
+//    if (data > parent_pointer->data) {
+//        parent_pointer->right_node = new Binary_Tree(data);
+//    } else {
+//        parent_pointer->left_node = new Binary_Tree(data);
+//    }
+//
+//    // Return the unchanged root pointer
+//    return root_pointer;
+//}
 //
 //
 //
@@ -67,19 +102,19 @@
 //
 //int main() {
 //    // Creating the root node
-//    Binary_Tree* root = new Binary_Tree(10);
+////    Binary_Tree* root = new Binary_Tree(10);
 //
 //    // Inserting new nodes
-//    root = Create_Node(root, 5);
-//    root = Create_Node(root, 15);
-//    root = Create_Node(root, 3);
-//    root = Create_Node(root, 7);
-//    root = Create_Node(root, 9);
-//    root = Create_Node(root, 11);
+//    Binary_Tree* root = Binary_Tree_Iterative(root, 10);
+//    root = Binary_Tree_Iterative(root, 5);
+//    root = Binary_Tree_Iterative(root, 15);
+//    root = Binary_Tree_Iterative(root, 3);
+////    root = Create_Node(root, 7);
+////    root = Create_Node(root, 9);
+////    root = Create_Node(root, 11);
 //
 //    // Output some values to verify
-//    std::cout << "Root data: " << root->data << std::endl;
-//    Search(root,7);
+//
 //
 //    return 0;
 //}

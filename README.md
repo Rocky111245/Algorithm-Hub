@@ -56,3 +56,31 @@ Cryptographic Hash Functions: In scenarios requiring high security (e.g., passwo
 ![img_5.png](img_5.png)
 ![img_6.png](img_6.png)
 
+      Graphs
+
+A graph is a data structure that consists of a set of vertices (or nodes) and a set of edges connecting pairs of vertices. Graphs are used to model pairwise relations between objects, making them versatile tools in computer science and various other fields for representing networks, relationships, and structures.
+
+1) Max number of Edges= Vertices(Vertices-1)->Directed and half of it for undirected.
+2) Adjacency List is used for sparse graphs and Adjacency Graph is used for dense graph.
+3) In a directed graph, strongly connected means all available/max number of networks.
+
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
+
+![img_9.png](img_9.png)
+
+
+4) Adjacency matrix is good for dense graphs.Adjacency lists is good for sparse graphs.
+5) String->Integer
+
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
+
+
+Comparison between matrix and list. If graph is sparse. We often use linked lists for adjacency lists.
+
+![img_12.png](img_12.png)
+
