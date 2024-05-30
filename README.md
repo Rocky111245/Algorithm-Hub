@@ -2,9 +2,9 @@
  Simple Algorithms implemented in C/C++. Experimental in Nature to Test efficiency in writing Code.
 
 
-![img.png](img.png)
+![img.png](Images/img.png)
 
-![img_1.png](img_1.png)
+![img_1.png](Images/img_1.png)
 
     A) Hash Tables
 
@@ -48,13 +48,13 @@ Bloom Filters: A space-efficient probabilistic data structure that can be used w
 Cryptographic Hash Functions: In scenarios requiring high security (e.g., password storage), cryptographic hash functions are used, which are designed to be computationally infeasible to reverse.
 
 
-![img_2.png](img_2.png)
+![img_2.png](Images/img_2.png)
 
 
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
+![img_3.png](Images/img_3.png)
+![img_4.png](Images/img_4.png)
+![img_5.png](Images/img_5.png)
+![img_6.png](Images/img_6.png)
 
       Graphs
 
@@ -65,22 +65,22 @@ A graph is a data structure that consists of a set of vertices (or nodes) and a 
 3) In a directed graph, strongly connected means all available/max number of networks.
 
 
-![img_7.png](img_7.png)
+![img_7.png](Images/img_7.png)
 
-![img_8.png](img_8.png)
+![img_8.png](Images/img_8.png)
 
-![img_9.png](img_9.png)
+![img_9.png](Images/img_9.png)
 
 
 4) Adjacency matrix is good for dense graphs.Adjacency lists is good for sparse graphs.
 5) String->Integer
 
-![img_10.png](img_10.png)
+![img_10.png](Images/img_10.png)
 
-![img_11.png](img_11.png)
+![img_11.png](Images/img_11.png)
 
 
 Comparison between matrix and list. If graph is sparse. We often use linked lists for adjacency lists.
 
-![img_12.png](img_12.png)
+![img_12.png](Images/img_12.png)
 
